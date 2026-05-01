@@ -1,22 +1,13 @@
 import React from 'react';
 import './RoleSelection.css';
+import BouncingBallsContainer from './BouncingBalls';
+import './BouncingBalls.css';
 
 function App() {
   return (
     <div className="role-selection-container">
+      <BouncingBallsContainer />
       <h1>SkillBridge</h1>
-      <h2>Choose your role</h2>
-      <div className="roles">
-        <div className="role-ball admin">
-          Admin
-        </div>
-        <div className="role-ball client">
-          Client
-        </div>
-        <div className="role-ball freelancer">
-          Freelancer
-        </div>
-      </div>
     </div>
   );
 }
